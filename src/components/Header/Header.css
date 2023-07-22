@@ -1,0 +1,30 @@
+.colorbg{
+    background-color: var(--forest-green, #0A4D1E) !important ;
+}
+.navbar-nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 12px;
+    padding: 0 3px;
+    color: var(--white, #FFF);
+    white-space: nowrap;
+    transition: 0.3s;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+.navbar-nav a:hover {
+    color: var(--maize, #FCC044);
+    
+}
+.nav-icon{
+    color: var(--white, #FFF);
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    font-family: 'Lora', serif;
+}

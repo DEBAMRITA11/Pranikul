@@ -1,30 +1,48 @@
+:root {
+    --forest-green: #0A4D1E;
+    --white: #ffffff;
+    --maize: #FCC044;
+}
 .colorbg{
-    background-color: var(--forest-green, #0A4D1E) !important ;
+    background-color: var(--forest-green, #0A4D1E);
 }
 .navbar-nav a {
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 12px;
-    padding: 0 3px;
-    color: var(--white, #FFF);
-    white-space: nowrap;
-    transition: 0.3s;
+    color: var(--white);
     font-family: 'Lora', serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0 3px;
+    white-space: nowrap;
+    transition: 0.3s;
 }
 .navbar-nav a:hover {
     color: var(--maize, #FCC044);
     
 }
-.nav-icon{
-    color: var(--white, #FFF);
+.nav-content h5{
+    color:  #FFF;
     text-align: right;
+    font-family: 'Lora', serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; 
-    font-family: 'Lora', serif;
+    line-height: 24px;
+    border-right: 1px solid #F1F3F0;
+    height: 24px;
+}
+.nav-content a{
+    color: #FFF;
+    margin-bottom: 8px;
+    
+}
+.social-icon a{
+    color: var(--white) ;
+    width: 22px;
+    height: 22px;
+
 }

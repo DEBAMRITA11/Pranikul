@@ -27,13 +27,16 @@ const Header = () => {
             <NavDropdown title="Pages" id="navbarScrollingDropdown">
             </NavDropdown>
             </Nav>
-            <div className='nav-icon d-flex'>
-            <button><i class="fa-brands fa-facebook"></i></button>
-            <h5>(225) 555-0118 </h5>
+            <div className="nav-content d-flex align-center justify-content">
+            <a href='#' className='px-2 mt-2'><i class="fa-solid fa-phone"></i></a>
+            <h5 className='px-2 mt-2'>(225) 555-0118</h5>
             </div>
-            <div className='social-icon d-flex' >
-    
-            </div>
+            <div className='social-icon px-2'>
+            <a href='#' className='px-2 mt-2'><i class="fa-brands fa-facebook"></i></a>
+            <a href='#' className='px-2 mt-2'><i class="fa-brands fa-twitter"></i></a>
+            <a href='#' className='px-2 mt-2'><i class="fa-brands fa-instagram"></i></a>
+            <a href='#' className='px-2 mt-2'><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -48,8 +48,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: var(--forest-green, #0A4D1E);
-    background: var(--white, #FFF);
+    color: #0A4D1E;
+    background: #FFF;
     font-family: Lora;
     font-size: 18px;
     font-style: normal;

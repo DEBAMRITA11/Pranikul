@@ -1,6 +1,6 @@
 
 .container{
-    width: 40%;
+    width: 30%;
     height: auto;
 }
 
@@ -90,7 +90,12 @@
 
 
 .service-area{
-    background-color: bisque;
+    width: 1000px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #F1F3F0;
+    box-shadow: 5.743609289619953e-15px 93.80026245117188px 187.60052490234375px 0px rgba(45, 45, 45, 0.14), 1.4039934266116163e-15px 22.928953170776367px 22.928953170776367px 0px #F7F9F7 inset, -1.4039934266116163e-15px -22.928953170776367px 22.928953170776367px 0px #C5C6C4 inset;
+
 }
 .service-content{
     padding: 12px; 
@@ -117,6 +122,8 @@
 .today{
     width: 221px;
     height: 100px;
+    padding-top: 15px;
+    margin-bottom: 10px;
 }
 .today h5{
     font-family: 'Lora', serif;
@@ -153,7 +160,10 @@
     color:#0A4D1E;
     margin-left: 8px;
 }
-
+.animals {
+    width: 221px;
+    height: 100px; 
+}
    
 .animals li::marker  {
    color: #E27637 ;
@@ -162,7 +172,7 @@
     color: #0A4D1E ;
  }
  .feeding{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     padding-left: 15px;
     
  }
@@ -180,6 +190,11 @@
     color:#0A4D1E;
     margin-left: 8px;
 }
+.feedinf-text{
+    width: 221px;
+    height: 100px;
+    padding-left: 15px;
+}
 .feedinf-text p {
     color: #0A4D1E;
     font-family: 'Lora', serif;
@@ -187,12 +202,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 27px; 
-    width: 221px;
-    height: 100px;
+}
+.donate{
+    margin-left:10px; 
 }
 .events{
     padding-bottom: 15px;
-    padding-left: 15px;
+    padding-left: 45px;
     
  }
 .events img{
@@ -210,10 +226,10 @@
     margin-left: 8px;
 }
 .events-text{
+    padding-left: 45px;
     width: 221px;
     height: 100px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    
 }
 .events-text p {
     color: #0A4D1E;
@@ -224,4 +240,7 @@
     line-height: 27px; 
     width: 221px;
     height: 100px;
+}
+.up-events{
+    padding-left: 45px; 
 }

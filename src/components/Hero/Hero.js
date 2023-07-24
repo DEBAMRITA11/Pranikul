@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
-import Col from 'react-bootstrap/esm/Col';
 import Arrow from "../../images/Arrow 1.png";
 import Clock from "../../images/clock.png";
 import Map from "../../images/map.png";
@@ -25,7 +24,7 @@ const Hero = () => {
          </div>
          <div className='service-area container'>
             <Container className="service-content d-flex" >
-                <div className="pt-3 pb-4 border-right" >
+                <div className="pt-4 pb-2 border-right" >
                     <div className='visit d-flex'>
                     <img src={Clock} alt=''/>    
                     <h4>Plan your visit</h4>
@@ -35,17 +34,17 @@ const Hero = () => {
                      <h4>10:00 - 16:00</h4>
                      <h5> Last admission: 15:30</h5>
                     </div>
-                    <div className='schedule d-flex pt- pb-4'>
+                    <div className='schedule d-flex pt-4 pb-4'>
                     <button className='service-btn'>Schedule</button>
                     <img className='service-img' src={Arrow} alt=''/>
                     </div>
                 </div>
-                <div className="pt-3 pb-4 border-right" >
+                <div className="pt-4 pb-2 border-right" >
                     <div className='map d-flex'>
                     <img src={Map} alt=''/>    
                     <h4>Map</h4>
                     </div>
-                    <div className='animals  list-style-type: circle pt-2 pb-2'>
+                    <div className='animals  list-style-type: circle pb-2'>
                      <ul>
                         <li>crocodile</li>
                         <li>aquarium</li>
@@ -57,28 +56,28 @@ const Hero = () => {
                     <img src={Arrow} alt=''/>
                     </div>
                 </div>
-                <div className="pt-3 pb-4 border-right" >
+                <div className="pt-4 pb-2 border-right" >
                     <div className='feeding d-flex'>
                     <img src={Apple} alt=''/>    
                     <h4>Next feeding</h4>
                     </div>
-                    <div className='feedinf-text pt-2 pb-2'>
+                    <div className='feedinf-text'>
                     <p>Due to covid no public Animal feeding & training sessions are taking place at this time.</p>
                     </div>
-                    <div className='donate d-flex pt-4'>
-                    <button className='service-btn' >Donate</button>
+                    <div className='donate d-flex pt-3 '>
+                    <button className='service-btn'>Donate</button>
                     <img src={Arrow} alt=''/>
                     </div>
                 </div>
-                <div className="pt-3 pb-4" >
+                <div className="pt-4 pb-2" >
                     <div className='events d-flex'>
                     <img src={Evernote} alt=''/>    
                     <h4>Events</h4>
                     </div>
-                    <div className='events-text pt-2 pb-2'>
+                    <div className='events-text'>
                     <p>Join us to enjoy Pranikul events</p>
                     </div>
-                    <div className='up-events d-flex pt-4'>
+                    <div className='up-events d-flex pt-2'>
                     <button className='service-btn' >Upcoming events</button>
                     <img src={Arrow} alt=''/>
                     </div>

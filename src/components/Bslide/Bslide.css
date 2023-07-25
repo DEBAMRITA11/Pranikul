@@ -1,0 +1,111 @@
+.bslide-area{
+    width: 1000px;
+    height: 511px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #F1F3F0;
+    color: black;
+    
+}
+.SwiperSlide{
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border-box{
+    width: 300px;
+    height: 350px;
+    border: 4px solid #FFF;
+    opacity: 0.699999988079071;
+}
+.slide-1{
+    opacity: 0.699999988079071;
+    width: 350px;
+    height: 400px;
+    background-size: cover ;
+    background-position: center;
+    background-image: url(https://s3-alpha-sig.figma.com/img/0774/4ff7/210a7c9549246fa4f5b4607ddeea98b3?Expires=1691366400&Signature=jpeooW5WcMsdfEWqz5qoXblVhKivdySazbF-QpmQa4RPF7Gh1cfdPQtx2iQhiNSN4DjQ9ycQb6J1cr5RAG5X7nyp4iMOXW6K0qTubijgbGO7JWhTnuSMIVeobNygy0w81TXTfSHUjrDwiaNY9YnC4DfphOwPUn~agaTe9Nhm~J8yMcp23oSr6aIaMgs1OlvsY9ggGZcZs3hzE2bW0eokT65dlx~9jy0USQ0R11JDpV5TtBrd3rc38EpVZnAhYFf6NF77M2PNwwuywxmajn4Vw5lUROY4uivQTllrbsP37iJkmtPcuOnqbwCV3jY~deMC3OgkGWsQb0OPpeKysIr9TQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
+}
+.slide-1 h5{
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 60px;
+    padding: 30px;
+}
+.slide-1 p {
+    color: #FFF;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.slide-1 .slide-btn{
+    color:#FFF;
+    border:none;
+    display: inline-flex;
+    padding: 11px 32px 12px 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px; 
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    
+}
+.slide-1 .slide-btn2{
+    width: 24px;
+    height: 0px;
+    color:#FFF;
+    margin-left: -30px;
+    margin-bottom: 30px;
+    border:none;
+    display: inline-flex;
+    
+}
+.slide-2{
+    width: 350px;
+    height: 400px;
+    background-size: cover ;
+    background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmuMfxc6rcSODIlQhVL2NFMgTlWC6NxAydjwwKv09TAPXTbDN)
+}
+.slide-3{
+    width: 350px;
+    height: 400px;
+    background-size: cover ;
+    background-position: center;
+    background-image: url(https://s3-alpha-sig.figma.com/img/7acb/6111/5bf48360b16735dce8da615c5de3fc3b?Expires=1691366400&Signature=bIU9szV9UF9Kb4fq2hXrGZGj8ARNIqFmNf4kJuwzEJkOuLf19Ls5gMYO7KYrQPtzFc4svflYD88KJE7kzZt97-UF0ISvhYVGQgi7ye5RKKNXYJuzc2yZWl2mKoxZ3x4sMX1uKORFMbN0Sd6N8UECfQbZ-IaUmEXLqFNAEFuF57Lc7lIANpX6khpvkcPgiNIcj3cMhlVAR05yEdreJughCo6TX2-GM03qM5SIy7r4HhSGjKcB5M-HhnG6tOSEQOomsQG1WKFoX3r33TUzC1BbB3MXnJbIagn7Le5EPPZWIlNnkQDWGFQKm94sFH1xa7jQrBGS2ZSgO7XKhioeDrLGXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
+}
+.slide-2{
+    width: 350px;
+    height: 400px;
+    background-size: cover ;
+    background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbT1FHBsf5LKJjbVS6SNIRtI8WYW4xbPdMr1jnwrE-Ws---Wkx)
+}
+.slide-text h4{
+    justify-content: center;
+    justify-items: flex-start;
+    padding:8px;
+    color: #0A4D1E;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.slide-text .text2 {
+    margin-right: 155px;
+    margin-left: 155px;
+}

@@ -42,12 +42,14 @@
 .next-back .back{
     width: 30px;
     height: 30px;
-    color: #0A4D1E; 
+    color: #0A4D1E;
+    background-color: #E8ECE6; 
 }
 .next-back .next{
     width: 30px;
     height: 30px;
     color: #0A4D1E; 
+    background-color: #E8ECE6;
 }
 
 
@@ -57,4 +59,5 @@
 .banner-slide{
     width: 100%;
     height: auto;
+    
 }

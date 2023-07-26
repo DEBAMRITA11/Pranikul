@@ -3,8 +3,7 @@
     height: 511px;
     padding-left: 10px;
     padding-right: 10px;
-    background: #F1F3F0;
-    color: black;
+    background: #E8ECE6;
     
 }
 .SwiperSlide{
@@ -78,6 +77,7 @@
     height: 400px;
     background-size: cover ;
     background-position: center;
+    opacity: 0.799999988079071;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmuMfxc6rcSODIlQhVL2NFMgTlWC6NxAydjwwKv09TAPXTbDN)
 }
 .slide-3{
@@ -85,6 +85,7 @@
     height: 400px;
     background-size: cover ;
     background-position: center;
+    opacity: 0.799999988079071;
     background-image: url(https://s3-alpha-sig.figma.com/img/7acb/6111/5bf48360b16735dce8da615c5de3fc3b?Expires=1691366400&Signature=bIU9szV9UF9Kb4fq2hXrGZGj8ARNIqFmNf4kJuwzEJkOuLf19Ls5gMYO7KYrQPtzFc4svflYD88KJE7kzZt97-UF0ISvhYVGQgi7ye5RKKNXYJuzc2yZWl2mKoxZ3x4sMX1uKORFMbN0Sd6N8UECfQbZ-IaUmEXLqFNAEFuF57Lc7lIANpX6khpvkcPgiNIcj3cMhlVAR05yEdreJughCo6TX2-GM03qM5SIy7r4HhSGjKcB5M-HhnG6tOSEQOomsQG1WKFoX3r33TUzC1BbB3MXnJbIagn7Le5EPPZWIlNnkQDWGFQKm94sFH1xa7jQrBGS2ZSgO7XKhioeDrLGXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
 }
 .slide-2{

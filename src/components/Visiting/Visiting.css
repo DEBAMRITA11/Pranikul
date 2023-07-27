@@ -93,6 +93,7 @@
 }
 .today-button {
     margin-left: 180px;
+    padding-top: 35px;
 }
 .today-button button {
     color:  #0A4D1E;
@@ -109,7 +110,7 @@
 .today-button a {
     color:  #0A4D1E;
     width: 24px;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 /* Visiting info-area css */

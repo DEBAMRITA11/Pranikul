@@ -30,7 +30,7 @@ const Visiting = () => {
                         <p className='p-time pt-2'>4:00 PM</p>
                         <p className='p-text'>Zoo Closes</p>
                     </div>
-                    <div className='today-button d-flex pt-5'>
+                    <div className='today-button d-flex'>
                         <button>Full Schedule</button>
                         <a href='#' ><i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>

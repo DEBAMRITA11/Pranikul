@@ -1,0 +1,210 @@
+.visiting-hour{
+     width: 100%;
+     height: auto;
+    
+}
+.visiting-container{
+    width: 85%;
+    height: 649.999px;
+}
+.visiting-area{
+    margin-left: 452px;
+    margin-top: 120px;
+}
+.visiting-today{
+    width: 515px;
+    height: 590px;
+    flex-shrink: 0;
+    background: #E8ECE6;
+}
+
+.today-heading{
+    width: 450px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #0A4D1E;
+    text-align: center;
+    position: relative;
+}
+.today-heading::after{
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 410px;
+    width: 70px;
+    height: 144px;
+    background-image: url("../../images/after1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.today-heading h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-left: 56px;
+    margin-top: 20px;
+}
+
+.p-time{
+    color:#0A4D1E;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    opacity: 0.75;
+    margin-left: 60px;
+}
+.p-text{
+    color:  #0A4D1E;
+    text-align: right;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; 
+    margin-right: 60px;
+}
+.today-1{
+    justify-content: space-between;
+    border-bottom: 1px solid #0A4D1E;
+}
+.today-2{
+    justify-content: space-between;
+    border-bottom: 1px solid #0A4D1E;
+    
+}
+.today-3{
+    justify-content: space-between;
+    border-bottom: 1px solid #0A4D1E;
+    
+}
+.today-4{
+    justify-content: space-between;
+    border-bottom: 1px solid #0A4D1E;
+    
+}
+.today-5{
+    justify-content: space-between;
+    border-bottom: 1px solid #0A4D1E;
+}
+.today-button {
+    margin-left: 180px;
+}
+.today-button button {
+    color:  #0A4D1E;
+    text-align: right;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    border:none;
+}
+.today-button a {
+    color:  #0A4D1E;
+    width: 24px;
+    padding-top: 10px;
+}
+
+/* Visiting info-area css */
+
+.visiting-info{
+    width: 480px;
+    height: 590px;
+    flex-shrink: 0;
+    background: #0A4D1E;
+    margin-left: 25px;
+    position: relative;
+}
+.info-heading{
+    width: 460px;
+    height: 38px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+.info-heading::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 328px;
+    width: 152.004px;
+    height: 114px;
+    background-image: url("../../images/after2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.info-heading h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 20px; 
+}
+.info-1 {
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.info-1 a{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color:  #FFF;
+    fill: rgba(0, 0, 0, 0.00);
+}
+.info-1 h3{
+    color:  #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.info-2 {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.info-2 a{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #FCC044;
+    fill: rgba(0, 0, 0, 0.00);
+    padding-top: 3px;
+}
+.info-2 button {
+    color: #FCC044;
+    background-color: #0A4D1E;
+    text-align: right;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    border:none;
+}
+.visiting-info::after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 300px;
+    width: 148.492px;
+    height: 312px;
+    background-image: url("../../images//purepng\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+

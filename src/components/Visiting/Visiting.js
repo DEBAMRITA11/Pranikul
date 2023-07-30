@@ -34,7 +34,7 @@ const Visiting = () => {
                         <p className='p-time'>4:00 PM</p>
                         <p className='p-text'>Zoo Closes</p>
                     </div>
-                    <div className='today-button d-flex pt-5'>
+                    <div className='today-button d-flex pt-3'>
                         <button>Full Schedule</button>
                         <a href='#' ><i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>

@@ -5,7 +5,7 @@ const upcoming = () => {
     return (
       <section>
         <div className='upcoming-area'>
-            <div className='upcoming-header pt-3 pb-3'>
+            <div className='upcoming-header pt-5 pb-4'>
                 <h2>Upcoming events</h2>
             </div>
             <div className='upcoming-content d-flex pt-4 pb-2'>

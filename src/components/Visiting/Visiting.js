@@ -11,23 +11,27 @@ const Visiting = () => {
                     <h3>Today at the Pranikul</h3>
                     </div>
                     <div className='today-1 d-flex pt-5'>
-                        <p className='p-time pt-2'>10:00 AM</p>
+                        <p className='p-time'>10:00 AM</p>
                         <p className='p-text'>Zoo Opens</p>
                     </div>
-                    <div className='today-2 d-flex pt-3'>
-                        <p className='p-time pt-2'>2:30 PM</p>
+                    <hr className='hr-line' />
+                    <div className='today-2 d-flex p-1'>
+                        <p className='p-time'>2:30 PM</p>
                         <p className='p-text'>Sea Lion Feeding</p>
                     </div>
-                    <div className='today-3 d-flex pt-3'>
-                        <p className='p-time pt-2'>3:00 PM</p>
+                    <hr className='hr-line' />
+                    <div className='today-3 d-flex pt-1'>
+                        <p className='p-time'>3:00 PM</p>
                         <p className='p-text'>Penguin Feeding</p>
                     </div>
-                    <div className='today-4 d-flex pt-3'>
-                        <p className='p-time pt-2'>3:30 PM</p>
+                    <hr className='hr-line' />
+                    <div className='today-4 d-flex pt-1'>
+                        <p className='p-time'>3:30 PM</p>
                         <p className='p-text'>Animal Exhibits Close</p>
                     </div>
-                    <div className='today-5 d-flex pt-3'>
-                        <p className='p-time pt-2'>4:00 PM</p>
+                    <hr className='hr-line' />
+                    <div className='today-5 d-flex pt-1'>
+                        <p className='p-time'>4:00 PM</p>
                         <p className='p-text'>Zoo Closes</p>
                     </div>
                     <div className='today-button d-flex'>

@@ -45,7 +45,7 @@
     font-weight: 700;
     line-height: 120%; 
     margin-left: 56px;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .p-time{
@@ -70,30 +70,38 @@
 }
 .today-1{
     justify-content: space-between;
-    border-bottom: 1px solid #0A4D1E;
+    
+}
+.hr-line{
+    margin-left: 55px;
+    width: 400px;
+    height: 1px;
+    opacity: 0.11999999731779099;
+    background: #0A4D1E;
+
 }
 .today-2{
     justify-content: space-between;
-    border-bottom: 1px solid #0A4D1E;
     
 }
 .today-3{
     justify-content: space-between;
-    border-bottom: 1px solid #0A4D1E;
+    
     
 }
 .today-4{
     justify-content: space-between;
-    border-bottom: 1px solid #0A4D1E;
+    
     
 }
 .today-5{
     justify-content: space-between;
-    border-bottom: 1px solid #0A4D1E;
+   
 }
+
 .today-button {
     margin-left: 180px;
-    padding-top: 35px;
+    
 }
 .today-button button {
     color:  #0A4D1E;

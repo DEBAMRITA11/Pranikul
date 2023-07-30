@@ -1,14 +1,15 @@
 .enviroment-area{
-     background-color: #E8ECE6 ;
+     background-color: #F1F3F0 ;
      width: 100%;
      height: auto;
-     
+     background-repeat: no-repeat;
+     background-image: url(../../images/enviroment-bg.png);
+     background-size: 100%;
 }
 .enviroment-area .container{
     width: 80%;
-    height: auto;
-    background-color: #F1F3F0;
-    background-image: url(https://lh3.googleusercontent.com/BkTqGAHIBEH4tFV8Q66A97XUmGV6PpJLNvEBuxo_D1u4UXkMl_k0JwaMKtRjIqAcYMwPbE1vrUwl-rdRNejZCmEFQIPALuGVoYMpbt0);
+    height: auto; 
+    /* background-image: url(../../images/enviroment-bg.png); */
 }
 .enviroment-header h2{
     color: #0A4D1E;

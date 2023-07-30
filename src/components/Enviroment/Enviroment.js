@@ -14,7 +14,7 @@ const Enviroment = () => {
             <div className='enviroment-header pb-5'>
                 <h2>Why visit Pranikul</h2>
             </div>
-            <div className='enviroment-content d-flex'>
+            <div className='enviroment-content d-flex pt-4'>
                 <div className='enviromet-image'>
                 <div class="container">
                 <div class="row">

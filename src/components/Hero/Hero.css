@@ -8,10 +8,10 @@
 .hero-area{
     width: 100%;
     height: 861px;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     opacity: 0.9;
-    background-image: url(https://s3-alpha-sig.figma.com/img/61be/b165/ead12487dc1854cb161ef70fb0ffd1fe?Expires=1690761600&Signature=QLlTsELkvzH3o6j89Z~mavkU-E50cL8eZdnHsRXzBTidORUYH7qFthbe~v07qArg9lOiqpi8b-6~De5kYDxEe6sj4izjaN9yhpgoejhmyKm1NQw3YLoBzOClUECqT6TWstCPNhzfsAMja9Rk-CQDUJckYmmX91MSh8mbpR2znMOQoev8~EOyyNgpvOYHxip07Hsda-aG2z0-j412Nxh5Bsg7Tf3y2rYUF~IgMtgUUqQ364ikf3ojruz542nvyR3siWDFyuCBFFqVCtuo0PvHfvKRABLZ-2-vp1a-7Go-pcC0aW30zjMd44J6pNeLK1221nfBfewFZJbdEOqHWaZrfA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-image: url(../../images/hero-bg.png);
 }
 .hero-content{
     text-align: center;

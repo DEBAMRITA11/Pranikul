@@ -10,31 +10,31 @@ const Visiting = () => {
                     <div className='today-heading pt-5 pb-5'>
                     <h3>Today at the Pranikul</h3>
                     </div>
-                    <div className='today-1 d-flex pt-5'>
+                    <div className='today-1 d-flex pt-2 pt-5'>
                         <p className='p-time'>10:00 AM</p>
                         <p className='p-text'>Zoo Opens</p>
                     </div>
                     <hr className='hr-line' />
-                    <div className='today-2 d-flex p-1'>
+                    <div className='today-2 d-flex'>
                         <p className='p-time'>2:30 PM</p>
                         <p className='p-text'>Sea Lion Feeding</p>
                     </div>
                     <hr className='hr-line' />
-                    <div className='today-3 d-flex pt-1'>
+                    <div className='today-3 d-flex'>
                         <p className='p-time'>3:00 PM</p>
                         <p className='p-text'>Penguin Feeding</p>
                     </div>
                     <hr className='hr-line' />
-                    <div className='today-4 d-flex pt-1'>
+                    <div className='today-4 d-flex'>
                         <p className='p-time'>3:30 PM</p>
                         <p className='p-text'>Animal Exhibits Close</p>
                     </div>
                     <hr className='hr-line' />
-                    <div className='today-5 d-flex pt-1'>
+                    <div className='today-5 d-flex'>
                         <p className='p-time'>4:00 PM</p>
                         <p className='p-text'>Zoo Closes</p>
                     </div>
-                    <div className='today-button d-flex'>
+                    <div className='today-button d-flex pt-5'>
                         <button>Full Schedule</button>
                         <a href='#' ><i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>

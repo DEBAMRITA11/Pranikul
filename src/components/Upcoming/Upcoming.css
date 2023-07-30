@@ -1,0 +1,103 @@
+.upcoming-area{
+    width: 1480px;
+    height: 711px;
+}
+.upcoming-header{
+    margin-left: 30%;
+}
+.upcoming-header h2{
+    color:  #0A4D1E;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.upcoming-content{
+    margin-left: 30%;
+}
+.event-1{
+    width: 245px;
+    height: 262px;
+    flex-shrink: 0;
+    margin-right: 18px;
+    margin-left: 5px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../images/up-1.png)
+}
+.event-box h4{
+    margin-top: 10%;
+    margin-left: 60%;
+    width: 72px;
+    height: 72px;
+    border: 1px solid #fff;
+    color:  #0A4D1E;
+    background-color:  #FCC044;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.event-box h5{
+    color: #FFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+.event-2{
+    width: 245px;
+    height: 262px;
+    flex-shrink: 0;
+    margin-right: 18px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../images/up-2.png)
+}
+.event-3{
+    width: 245px;
+    height: 262px;
+    flex-shrink: 0;
+    margin-right: 18px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../images/up-3.png)
+}
+.event-4{
+    width: 245px;
+    height: 262px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../images/up-4.png)
+}
+.upcoming-button {
+    margin-left: 60%;
+    margin-top: 40px; 
+}
+.upcoming-button button {
+    color:  #0A4D1E;
+    background-color: #fff;
+    text-align: right;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    border:none;
+}
+.upcoming-button a {
+    color:  #0A4D1E;
+    width: 24px;
+    padding-top: 6px;
+}

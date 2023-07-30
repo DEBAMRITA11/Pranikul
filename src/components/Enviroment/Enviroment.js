@@ -59,7 +59,7 @@ const Enviroment = () => {
                         <p>Entertainment</p>
                     </div>
                 </div>
-                <div className='total-icon d-flex'>
+                <div className='total-icon d-flex pb-2'>
                     <div className='ever-icon d-flex'>
                         <img src={Evernote} alt='' />
                         <h3>965</h3>
@@ -73,7 +73,7 @@ const Enviroment = () => {
                         <h3>2.3k</h3>
                     </div>
                 </div>
-                <div className='member-text d-flex'>
+                <div className='member-text d-flex pb-4'>
                     <h5>Total species</h5>
                     <h5>Daily visitor</h5>
                     <h5>Total member</h5>

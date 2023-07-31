@@ -1,6 +1,6 @@
-
 .hero-area{
-    padding: 40px 0; 
+    width: 100%;
+    padding-top: 40px; 
     height: 861px;
     background-size: cover;
     opacity: 0.9;
@@ -77,7 +77,7 @@
     border: none;
 }
 .service-area{
-    width: 1000px;
+    width: 100%;
     height: 250px;
     flex-shrink: 0;
     background: #F1F3F0;

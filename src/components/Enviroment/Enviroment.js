@@ -20,11 +20,11 @@ const Enviroment = () => {
                 <div className='enviromet-image'>
                 <Container>    
                 <Row>
-                <Col lg={6} md={6}>
+                <Col lg={6} md={6} sm={6}>
                     <img src={Enviroment3} alt=''/>
                     <img src={Enviroment2} alt=''/>
                 </Col>
-                <Col lg={6} md={6}>
+                <Col lg={6} md={6} sm={6}>
                 <img src={Enviroment1} alt=''/> 
                 </Col>
                 </Row>

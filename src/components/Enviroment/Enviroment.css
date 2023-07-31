@@ -6,11 +6,6 @@
      background-image: url(../../images/enviroment-bg.png);
      background-size: 100%;
 }
-.enviroment-area .container{
-    width: 80%;
-    height: auto; 
-    /* background-image: url(../../images/enviroment-bg.png); */
-}
 .enviroment-header h2{
     color: #0A4D1E;
     text-align: center;

@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
             <Container className='service-area pb-3'>
                 <Row>
-                    <Col lg={3} md={6} >
+                    <Col lg={3} md={6} sm={12} >
                     <div className="pt-5 border-right" >
                     <div className='visit d-flex'>
                     <img src={Clock} alt=''/>    
@@ -45,7 +45,7 @@ const Hero = () => {
                     </div>
                 </div>
                     </Col>
-                    <Col lg={3} md={6}>
+                    <Col lg={3} md={6} sm={12}>
                     <div className="pt-5 border-right" >
                     <div className='map pb-2 d-flex'>
                     <img src={Map} alt=''/>    
@@ -64,7 +64,7 @@ const Hero = () => {
                     </div>
                 </div>   
                     </Col>
-                    <Col lg={3} md={6}>
+                    <Col lg={3} md={6} sm={12}>
                     <div className="pt-5 border-right" >
                     <div className='feeding pb-2 d-flex'>
                     <img src={Apple} alt=''/>    
@@ -79,7 +79,7 @@ const Hero = () => {
                     </div>
                 </div>   
                     </Col>
-                    <Col lg={3} md={6}>
+                    <Col lg={3} md={6} sm={12}>
                     <div className="pt-5" >
                     <div className='events d-flex'>
                     <img src={Evernote} alt=''/>    
@@ -88,7 +88,7 @@ const Hero = () => {
                     <div className='events-text pb-4'>
                     <p>Join us to enjoy Pranikul events</p>
                     </div>
-                    <div className='up-events d-flex pt-1 m-2'>
+                    <div className='up-events d-flex m-2'>
                     <a href='#' className='service-btn' >Upcoming events</a>
                     <img className='p-2' src={Arrow} alt=''/>
                     </div>

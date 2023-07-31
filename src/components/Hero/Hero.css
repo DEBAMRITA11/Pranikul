@@ -77,18 +77,22 @@
     border: none;
 }
 .service-area{
+    position: relative;
     width: 100%;
-    height: 250px;
+    height: auto;
     flex-shrink: 0;
     background: #F1F3F0;
     box-shadow: 5.743609289619953e-15px 93.80026245117188px 187.60052490234375px 0px rgba(45, 45, 45, 0.14), 1.4039934266116163e-15px 22.928953170776367px 22.928953170776367px 0px #F7F9F7 inset, -1.4039934266116163e-15px -22.928953170776367px 22.928953170776367px 0px #C5C6C4 inset;
 
 }
-.border-right{
+.border-right::after {
+    content: "";
+    position: absolute;
     border-right: 1px solid #0A4D1E;
-    height: 200px;
-    padding: 50px;
-    padding-top: 10px;
+    height: 50px;
+    padding: 25px;
+    margin-left: 15%;
+    
 }
 .visit img{
     width: 20px;

@@ -6,29 +6,33 @@ import Evernote from "../../images/evernote (3).png";
 import Users from "../../images/users.png";
 import Userf from "../../images/user-friends.png";
 import "../Enviroment/Enviroment.css";
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Enviroment = () => {
     return (
         <section className='enviroment-area'>
-            <div className='container'>
+            <Container>
             <div className='enviroment-header pb-5'>
                 <h2>Why visit Pranikul</h2>
             </div>
-            <div className='enviroment-content d-flex pt-4'>
+            <Row>
+            <Col lg={6} md={12} className='enviroment-content pt-4'>
                 <div className='enviromet-image'>
-                <div class="container">
-                <div class="row">
-                <div class="col-lg-6">
+                <Container>    
+                <Row>
+                <Col lg={6} md={6}>
                     <img src={Enviroment3} alt=''/>
                     <img src={Enviroment2} alt=''/>
-                </div>
-                <div class="col-lg-6">
+                </Col>
+                <Col lg={6} md={6}>
                 <img src={Enviroment1} alt=''/> 
+                </Col>
+                </Row>
+                </Container>
                 </div>
-                </div>
-                </div>
-                </div>
-                <div className='enviromet-text'>
+            </Col>
+            <Col lg={6} md={12} >
+            <div className='enviromet-text pt-3'>
                  <h3>Natural environment</h3>
                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. oq Exercitation veniam consequat sunt nostrud amet.</p>
                 <div className='group-icon d-flex'>
@@ -78,14 +82,12 @@ const Enviroment = () => {
                     <h5>Daily visitor</h5>
                     <h5>Total member</h5>
                 </div>
-                </div>
-
-                </div>
             </div>
+            </Col>
             
 
-            
-            
+           </Row>
+         </Container>   
         </section>
     );
 };

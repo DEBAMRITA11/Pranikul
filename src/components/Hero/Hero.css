@@ -1,26 +1,15 @@
 
-.container{
-    width: 30%;
-    height: auto;
-}
-
-
 .hero-area{
-    width: 100%;
+    padding: 40px 0; 
     height: 861px;
-    /* background-position: center; */
     background-size: cover;
     opacity: 0.9;
     background-image: url(../../images/hero-bg.png);
 }
-.hero-content{
-    text-align: center;
-    margin-top: 180px; 
-    
-}
 .hero-content h1{
+    padding-top: 55px;
     text-align: center;
-    color: var(--white, #FFF);
+    color: #FFF;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 85px;
     font-style: normal;
@@ -28,19 +17,19 @@
     line-height: 120%; 
 }
 .hero-content h2 {
-    color: var(--white, #FFF);
+    color:  #FFF;
     text-align: center;
     font-family: 'Lora', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin-bottom: 15px;
 }
 
 .hero-bn {
     justify-content: center;
-    margin-bottom: 240px;
+    margin-bottom: 16%;
+
 }
 .hero-bn .btn-button{
     display: inline-flex;
@@ -65,8 +54,8 @@
     gap: 8px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.01) !important;
-    color: var(--white, #FFF);
-    font-family: Lora;
+    color: #FFF;
+    font-family: 'Lora', serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -87,8 +76,6 @@
     text-transform: capitalize;
     border: none;
 }
-
-
 .service-area{
     width: 1000px;
     height: 250px;
@@ -97,13 +84,11 @@
     box-shadow: 5.743609289619953e-15px 93.80026245117188px 187.60052490234375px 0px rgba(45, 45, 45, 0.14), 1.4039934266116163e-15px 22.928953170776367px 22.928953170776367px 0px #F7F9F7 inset, -1.4039934266116163e-15px -22.928953170776367px 22.928953170776367px 0px #C5C6C4 inset;
 
 }
-.service-content{
-    padding: 12px; 
-}
 .border-right{
     border-right: 1px solid #0A4D1E;
-    height: 180px;
+    height: 200px;
     padding: 50px;
+    padding-top: 10px;
 }
 .visit img{
     width: 20px;
@@ -142,7 +127,6 @@
     line-height: 25px;
 }
 .map{
-   padding-bottom: 15px;
    padding-left: 15px;
    
 }

@@ -1,6 +1,6 @@
 .bslide-area{
-    width: 1040px;
-    height: 511px;
+    width: 982px;
+    height: 530px;
     padding-left: 10px;
     padding-right: 10px;
     background: #E8ECE6;
@@ -12,7 +12,6 @@
     padding-right: 10px;
 }
 .border-box{
-    margin-left: 10px;
     width: 290px;
     height: 350px;
     border: 2px solid #FFF;
@@ -100,6 +99,6 @@
     line-height: 120%;
 }
 .slide-text .text2 {
-    margin-right: 170px;
-    margin-left: 170px;
+    margin-right: 152px;
+    margin-left: 152px;
 }

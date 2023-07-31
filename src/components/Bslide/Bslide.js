@@ -7,10 +7,12 @@ import 'swiper/css/pagination';
 import "../Bslide/Bslide.css";
 
 import { FreeMode, Pagination } from 'swiper/modules';
+import { Container } from 'react-bootstrap';
 
 const Bslide = () => {
     return (
-        <div className='bslide-area px-2 pt-4'>
+      <Container >
+        <div className='bslide-area px-2 pt-5'>
         <Swiper
         slidesPerView={3}
         spaceBetween={20}
@@ -49,6 +51,7 @@ const Bslide = () => {
       </div>
             
         </div>
+        </Container>
     );
 };
 

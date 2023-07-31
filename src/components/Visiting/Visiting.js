@@ -1,10 +1,14 @@
 import React from 'react';
 import "../Visiting/Visiting.css";
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Visiting = () => {
     return (
         <section className='visiting-hour'>
-            <div className='visiting-container'>
+           <Container>
+            <Row>
+                <Col lg={6} md={12} sm={12}>
+                <div className='visiting-container'>    
                 <div className='visiting-area d-flex pb-4'>
                 <div className='visiting-today'>
                     <div className='today-heading pt-5 pb-5'>
@@ -38,7 +42,11 @@ const Visiting = () => {
                         <button>Full Schedule</button>
                         <a href='#' ><i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
+                    </div> 
+                    </div>
                 </div>
+                </Col>
+                <Col lg={6} md={12} sm={12} >
                 <div className='visiting-info'>
                 <div className='info-heading pt-5 pb-5'>
                     <h3>Visitor info</h3>
@@ -68,8 +76,9 @@ const Visiting = () => {
                         <a href='#'><i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                </div>
-            </div>
+                </Col>
+            </Row>
+           </Container>
         </section>
     );
 };

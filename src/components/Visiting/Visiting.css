@@ -1,14 +1,10 @@
 .visiting-hour{
      width: 100%;
      height: auto;
-    
 }
-.visiting-container{
-    width: 85%;
-    height: 649.999px;
-}
+
 .visiting-area{
-    margin-left: 452px;
+    margin-left: 24%;
     margin-top: 120px;
 }
 .visiting-today{
@@ -129,7 +125,8 @@
     height: 590px;
     flex-shrink: 0;
     background: #0A4D1E;
-    margin-left: 25px;
+    margin-left: 6%;
+    margin-top: 120px;
     position: relative;
 }
 .info-heading{

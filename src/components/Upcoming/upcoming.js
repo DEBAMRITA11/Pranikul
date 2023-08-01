@@ -10,7 +10,7 @@ const upcoming = () => {
                 <h2>Upcoming events</h2>
           </div>
           <Row>
-            <Col lg={3} >
+            <Col lg={3} className='' >
             <div className='event-1 event-box'> 
                  <h4 className='pt-2'>20 <br/>Feb</h4>
                  <h5>Animals return from night pasture</h5>

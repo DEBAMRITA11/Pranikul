@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Button } from 'react-bootstrap';
 import Arrow from "../../images/Arrow 1.png";
 import Clock from "../../images/clock.png";
 import Map from "../../images/map.png";
@@ -23,8 +22,8 @@ const Hero = () => {
             <h2 className='mb-4'>Pranikul for the new experience of joy</h2>
             </div>
             <div className='hero-bn d-flex'>
-            <Button className='btn-button' >Buy Ticket</Button>
-            <Button className='btn-button2'>Donate</Button>
+            <button className='btn-button' >Buy Ticket</button>
+            <button className='btn-button2'>Donate</button>
             </div>
             <Container className='service-area p-5'>
                 <Row>

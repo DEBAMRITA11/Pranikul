@@ -20,11 +20,11 @@ const Header = () => {
           >
             <Nav.Link href="#action1">Home</Nav.Link>
             <Nav.Link href="#action2">Animals</Nav.Link>
-            <Nav.Link href="#action2">Gallery</Nav.Link>
-            <Nav.Link href="#action2">Event</Nav.Link>
-            <Nav.Link href="#action2">Services</Nav.Link>
-            <Nav.Link href="#action2">Donate</Nav.Link>
-            <NavDropdown title="Pages" id="navbarScrollingDropdown">
+            <Nav.Link href="#action3">Gallery</Nav.Link>
+            <Nav.Link href="#action4">Event</Nav.Link>
+            <Nav.Link href="#action5">Services</Nav.Link>
+            <Nav.Link href="#action6">Donate</Nav.Link>
+            <NavDropdown title="Pages" id="#">
             </NavDropdown>
             </Nav>
             <div className="nav-content d-flex align-center justify-content">

@@ -24,6 +24,9 @@
     color: var(--maize, #FCC044);
     
 }
+.navbar-nav .nav-link.active{
+    color: var(--maize, #FCC044) !important;
+}
 .nav-content h5{
     color:  #FFF;
     text-align: right;

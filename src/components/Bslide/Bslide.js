@@ -12,7 +12,7 @@ import { Container } from 'react-bootstrap';
 const Bslide = () => {
     return (
       <Container >
-        <div className='bslide-area px-2 pt-5'>
+        <div className='bslide-area pb-2'>
         <Swiper
         slidesPerView={3}
         spaceBetween={20}

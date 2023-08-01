@@ -14,7 +14,7 @@ const Visiting = () => {
                     <div className='today-heading pt-5 pb-5'>
                     <h3>Today at the Pranikul</h3>
                     </div>
-                    <div className='today-1 d-flex pt-2 pt-5'>
+                    <div className='today-1 d-flex pt-5'>
                         <p className='p-time'>10:00 AM</p>
                         <p className='p-text'>Zoo Opens</p>
                     </div>

@@ -85,14 +85,18 @@
     box-shadow: 5.743609289619953e-15px 93.80026245117188px 187.60052490234375px 0px rgba(45, 45, 45, 0.14), 1.4039934266116163e-15px 22.928953170776367px 22.928953170776367px 0px #F7F9F7 inset, -1.4039934266116163e-15px -22.928953170776367px 22.928953170776367px 0px #C5C6C4 inset;
 
 }
-.border-right::after {
+.service-line::after {
     content: "";
     position: absolute;
     border-right: 1px solid #0A4D1E;
-    height: 50px;
+    height: 150px;
     padding: 25px;
-    margin-left: 15%;
+    margin-left: 16.5%;
+    margin-top: -170px;
     
+}
+.service-line::after:last-child{
+    display: none;
 }
 .visit img{
     width: 20px;
@@ -151,6 +155,7 @@
 .animals {
     width: 221px;
     height: 100px; 
+
 }
    
 .animals li::marker  {
@@ -158,6 +163,9 @@
 }
 .animals li{
     color: #0A4D1E ;
+ }
+ .zoo-map{
+    margin-left: 10px;
  }
  .feeding{
     padding-bottom: 10px;
@@ -192,11 +200,11 @@
     line-height: 27px; 
 }
 .donate{
-    margin-left:10px; 
+    margin-left: 15px; 
 }
 .events{
     padding-bottom: 15px;
-    padding-left: 45px;
+
     
  }
 .events img{
@@ -214,7 +222,6 @@
     margin-left: 8px;
 }
 .events-text{
-    padding-left: 45px;
     width: 221px;
     height: 100px;
     
@@ -229,6 +236,6 @@
     width: 221px;
     height: 100px;
 }
-.up-events{
-    padding-left: 45px; 
+.up-event-area{
+    padding-left: 20px; 
 }

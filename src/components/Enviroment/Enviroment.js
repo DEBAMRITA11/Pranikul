@@ -12,7 +12,7 @@ const Enviroment = () => {
     return (
         <section className='enviroment-area'>
             <Container>
-            <div className='enviroment-header pb-5'>
+            <div className='enviroment-header pb-5 pt-5'>
                 <h2>Why visit Pranikul</h2>
             </div>
             <Row>
@@ -20,19 +20,19 @@ const Enviroment = () => {
                 <div className='enviromet-image'>
                 <Container>    
                 <Row>
-                <Col lg={6} md={6} sm={6}>
+                <Col lg={6} md={6} sm={6} className='en-img-row'>
                     <img src={Enviroment3} alt=''/>
                     <img src={Enviroment2} alt=''/>
                 </Col>
-                <Col lg={6} md={6} sm={6}>
-                <img src={Enviroment1} alt=''/> 
+                <Col lg={6} md={6} sm={6} className='en-img-row2'>
+                <img src={Enviroment1} alt='' className='w-100%'/> 
                 </Col>
                 </Row>
                 </Container>
                 </div>
             </Col>
             <Col lg={6} md={12} >
-            <div className='enviromet-text pt-3'>
+            <div className='enviromet-text pt-4'>
                  <h3>Natural environment</h3>
                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. oq Exercitation veniam consequat sunt nostrud amet.</p>
                 <div className='group-icon d-flex'>

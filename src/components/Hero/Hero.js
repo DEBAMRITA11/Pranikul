@@ -26,10 +26,10 @@ const Hero = () => {
             <Button className='btn-button' >Buy Ticket</Button>
             <Button className='btn-button2'>Donate</Button>
             </div>
-            <Container className='service-area'>
+            <Container className='service-area p-5'>
                 <Row>
                     <Col lg={3} md={6} sm={12} >
-                    <div className=" border-right" >
+                    <div className="service-line" >
                     <div className='visit d-flex'>
                     <img src={Clock} alt=''/>    
                     <h4>Plan your visit</h4>
@@ -39,14 +39,14 @@ const Hero = () => {
                      <h4>10:00 - 16:00</h4>
                      <h5> Last admission: 15:30</h5>
                     </div>
-                    <div className='schedule d-flex pt-3 '>
+                    <div className='schedule d-flex pt-3'>
                     <a href='#' className='service-btn'>Schedule</a>
                     <img className='p-2 service-img' src={Arrow} alt=''/>
                     </div>
                 </div>
                     </Col>
                     <Col lg={3} md={6} sm={12}>
-                    <div className="border-right" >
+                    <div className="service-line" >
                     <div className='map pb-2 d-flex'>
                     <img src={Map} alt=''/>    
                     <h4>Map</h4>
@@ -58,37 +58,37 @@ const Hero = () => {
                         <li>Elephant tent</li>
                      </ul>
                     </div>
-                    <div className='zoo-map d-flex pt-2 '>
+                    <div className='zoo-map d-flex pt-3'>
                     <a href='#' className='service-btn'>Zoo Map</a>
                     <img className='p-2' src={Arrow} alt=''/>
                     </div>
                 </div>   
                     </Col>
                     <Col lg={3} md={6} sm={12}>
-                    <div className=" border-right" >
-                    <div className='feeding pb-2 d-flex'>
+                    <div className="service-line" >
+                    <div className='feeding  d-flex'>
                     <img src={Apple} alt=''/>    
                     <h4>Next feeding</h4>
                     </div>
-                    <div className='feedinf-text pb-3'>
+                    <div className='feedinf-text pb-2'>
                     <p>Due to covid no public Animal feeding & training sessions are taking place at this time.</p>
                     </div>
-                    <div className='donate d-flex '>
+                    <div className='donate d-flex pt-3'>
                     <a href='#' className='service-btn'>Donate</a>
                     <img className='p-2' src={Arrow} alt=''/>
                     </div>
                 </div>   
                     </Col>
                     <Col lg={3} md={6} sm={12}>
-                    <div className="border-right" >
+                    <div className="up-event-area" >
                     <div className='events d-flex'>
                     <img src={Evernote} alt=''/>    
                     <h4>Events</h4>
                     </div>
-                    <div className='events-text pb-4'>
+                    <div className='events-text pb-2'>
                     <p>Join us to enjoy Pranikul events</p>
                     </div>
-                    <div className='up-events d-flex '>
+                    <div className='up-events d-flex pt-1 '>
                     <a href='#' className='service-btn' >Upcoming events</a>
                     <img className='p-2' src={Arrow} alt=''/>
                     </div>

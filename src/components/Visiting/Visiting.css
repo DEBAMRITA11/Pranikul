@@ -4,18 +4,17 @@
 }
 
 .visiting-area{
-    margin-left: 24%;
     margin-top: 120px;
 }
 .visiting-today{
-    width: 515px;
-    height: 590px;
+    width: 640px;
+    height: 600px;
     flex-shrink: 0;
     background: #E8ECE6;
 }
 
 .today-heading{
-    width: 450px;
+    width: 600px;
     height: 38px;
     flex-shrink: 0;
     color: #0A4D1E;
@@ -26,7 +25,7 @@
     content: "";
     position: absolute;
     bottom: 8px;
-    left: 410px;
+    left: 500px;
     width: 70px;
     height: 144px;
     background-image: url("../../images/after1.png");
@@ -36,7 +35,7 @@
 }
 .today-heading h3{
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 32px;
+    font-size: 34px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; 
@@ -70,7 +69,7 @@
 }
 .hr-line{
     margin-left: 55px;
-    width: 400px;
+    width: 520px;
     height: 1px;
     opacity: 0.11999999731779099;
     background: #0A4D1E;
@@ -78,29 +77,22 @@
 }
 .today-2{
     justify-content: space-between;
-    
 }
 .today-3{
     justify-content: space-between;
-    
-    
 }
 .today-4{
     justify-content: space-between;
-    
-    
 }
 .today-5{
     justify-content: space-between;
-   
 }
 
 .today-button {
     margin-left: 180px;
-    
-    
 }
 .today-button button {
+    margin-left: 60px;
     color:  #0A4D1E;
     text-align: right;
     font-family: 'Lora', serif;
@@ -121,16 +113,15 @@
 /* Visiting info-area css */
 
 .visiting-info{
-    width: 480px;
-    height: 590px;
+    width: 640px;
+    height: 600px;
     flex-shrink: 0;
     background: #0A4D1E;
-    margin-left: 6%;
     margin-top: 120px;
     position: relative;
 }
 .info-heading{
-    width: 460px;
+    width: 600px;
     height: 38px;
     flex-shrink: 0;
     color: #FFFFFF;
@@ -140,8 +131,8 @@
 .info-heading::after{
     content: "";
     position: absolute;
-    bottom: -15px;
-    left: 328px;
+    bottom: -20px;
+    left: 488px;
     width: 152.004px;
     height: 114px;
     background-image: url("../../images/after2.png");
@@ -151,14 +142,15 @@
 }
 .info-heading h3{
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 32px;
+    text-align: center;
+    font-size: 34px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    margin-top: 20px; 
+    margin-top: 15px;
 }
 .info-1 {
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 50px;
 }
 .info-1 a{
@@ -177,7 +169,7 @@
     line-height: 120%; 
 }
 .info-2 {
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 20px;
 }
 .info-2 a{
@@ -205,7 +197,7 @@
     content: "";
     position: absolute;
     bottom: 5px;
-    left: 300px;
+    left: 420px;
     width: 148.492px;
     height: 312px;
     background-image: url("../../images//purepng\ 1.png");

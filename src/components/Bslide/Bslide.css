@@ -1,15 +1,10 @@
 .bslide-area{
-    width: 982px;
+    width: 970px;
     height: 530px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: #E8ECE6;
-    
+    padding-top: 14%;
 }
 .SwiperSlide{
     overflow: hidden;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .border-box{
     width: 290px;

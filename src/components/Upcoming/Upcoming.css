@@ -74,12 +74,10 @@
     background-image: url(../../images/up-4.png)
 }
 .upcoming-button {
-    margin-left: 60%;
-    margin-top: 40px; 
+    margin-left: 44%;
 }
-.upcoming-button button {
+.upcoming-button a {
     color:  #0A4D1E;
-    background-color: #fff;
     text-align: right;
     font-family: 'Lora', serif;
     font-size: 16px;
@@ -88,10 +86,9 @@
     line-height: 23px;
     text-decoration-line: underline;
     text-transform: capitalize;
-    border:none;
+    width: 120px;
 }
-.upcoming-button a {
-    color:  #0A4D1E;
-    width: 24px;
-    padding-top: 6px;
+.upcoming-icon {
+    padding-right: 13%;
+    padding-top: 3px;
 }
